@@ -1,0 +1,21 @@
+{
+  "name": "@packages/jobsity-ecommerce",
+  "version": "0.0.0-development",
+  "private": true,
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "pixel-test": "npx cypress run -s cypress/integration/homepage.test.js --browser chrome --env type=actual",
+    "test": "npx cypress run --spec **/*.spec.js --browser chrome"
+  },
+  "files": [
+    "cypress",
+    "lib"
+  ],
+  "dependencies": {
+    "bluebird": "3.5.3",
+    "cypress": "^9.5.4",
+    "cypress-visual-regression": "^1.6.3",
+    "glob": "7.1.3"
+  }
+}
