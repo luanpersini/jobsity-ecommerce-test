@@ -5,6 +5,7 @@
 1. Open the terminal and access the folder where the file `package.json` is. Run: `cd jobsity-ecommerce-test`
 1. Run `npm install` to install all dependencies
 
+![](readme/vs-code1.jpg)
 # Test Execution
 
 To execute the tests of the cart and the contact form, execute:  
@@ -18,3 +19,5 @@ To execute the pixel-perfect test in the homepage execute:
 To open the cypress and execute the tests in the client, execute:
 
 `.\node_modules\.bin\cypress open`
+
+![](readme/cypress1.jpg)
